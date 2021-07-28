@@ -9,7 +9,7 @@
 * 하지만 자바 프로그램 같은 경우에는 어떤 종류의 OS에서도 그에 맞는 JVM을 통해 프로그램을 쉽게 실행시킬 수 있다. 
 * 메모리 관리, Garbage Collection(GC를 통해 자원을 관리)을 수행한다.
 * 자바 바이트 코드를 실행할 수 있는 주체이다.
-  
+       
   ![jvm](https://user-images.githubusercontent.com/62649762/127267488-d3de417d-9a71-4dd5-a8e7-0b04711f8901.jpeg)
 
 ## JVM 구성
