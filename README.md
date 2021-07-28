@@ -1,2 +1,2 @@
 # java-TPC
-thinking -> presentation -> coding
+Thinking -> Presentation -> Coding
