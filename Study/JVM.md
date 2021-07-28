@@ -52,6 +52,9 @@
 
 5. Heap
 * 객체를 저장하는 가상 메모리 공간이다. new 연산자로 생성된 객체와 배열을 저장한다. Heap 영역은 세 가지의 부분으로 나눌 수 있다.
+
+![Screen Shot 2019-01-10 at 5 57 41 PM](https://user-images.githubusercontent.com/62649762/127275038-396dce49-4bac-403d-a34a-5ab44218f8aa.png)
+
 * New/Young 영역
   * Eden: 객체들이 최초로 생성되는 공간
   * Surivor O / 1: Eden에서 참조되는 객체들이 저장되는 공간
