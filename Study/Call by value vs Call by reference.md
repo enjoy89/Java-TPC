@@ -16,3 +16,7 @@
 * C/C++에서는 변수를 생성할 때마다 새로운 메모리 공간을 할당하고, 포인터를 사용한다면 같은 주소값을 가리킬 수 있도록 할 수 있습니다.
 * 그러므로 주소값 자체를 인자로 넘겨주고 값을 변경하면 새로운 값으로 덮어 쓰여 기존의 값이 변경될 수 있는 것입니다.
 * 즉, 자바에서는 원본값의 주소를 넘겨 주소값에 저장되어 있는 값을 변경하는 것으로 call by value라고 할 수 있습니다.
+
+[참조] https://github.com/gyoogle/tech-interview-for-developer/blob/master/Language/%5Bjava%5D%20Call%20by%20value%EC%99%80%20Call%20by%20reference.md'
+
+
