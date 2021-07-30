@@ -32,25 +32,25 @@
 * 프로그램을 수행하기 위해 OS에서 할당받은 메모리 공간
 
 <img width="595" alt="data" src="https://user-images.githubusercontent.com/62649762/127269209-04fdf32d-eab9-499d-9811-b943813b1957.png">
-
-1. PC Register
+ 
+####PC Register
 * Thread가 시작될 때 생성되며  각각의 Thread 별로 생성되는 공간으로 현재 수행 중인 JVM 명령어 주소를 가지게 된다.
 
-2. JVM 스택 영역
+#### JVM 스택 영역
 * 프로그램 실행 과정에서 임시로 할당되었다가 메소드를 빠져나가면 바로 소멸되는 특성의 데이터를 저장하기 위한 영역이다.
 * 각종 형태의 변수나 임시 데이터, 스레드나 메소드의 정보를 저장한다.
 * 메모스 호출 시마다 각각의 스택 프레임이 생성되고 메소드의 수행이 종료되면 프레임 별로 삭제한다.
 
-3. Native mrthod stack
+#### Native mrthod stack
 * 자바 프로그램이 컴파일되어 생성되는 바이트 코드가 아닌 실제 실행할 수 있는 기계어(네이티브 코드)로 작성된 프로그램을 실행시키는 영역이다.
 * 자바 언어가 아닌 다른 언어로 작성된 코드를 위한 공간이다. Java Native Interface를 통해 바이트 코드로 전환하여 저장하게 된다.
 
-4. Method Area (= Class area = Static area)
+#### Method Area (= Class area = Static area)
 * 클래스 정보를 처음 메모리 공간에 올릴 때 초기화되는 대상을 저장하기 위한 메모리 공간이다.
 * 자바 프로그램은 main 메소드의 호출에서부터 시작해 계속해서 메소드의 호출로 하나의 흐름을 이어가기 때문에 이때 올라가는 메소드의 바이트 코드는 프로그램의 흐름을 구성하는 바이트 코드이다.
 * 모든 스레드가 공유하는 메모리 영역이며 올라가는 정보의 종류에는 Field Information, Method Information, Type Information 등을 보관한다.
 
-5. Heap
+#### Heap
 * 객체를 저장하는 가상 메모리 공간이다. new 연산자로 생성된 객체와 배열을 저장한다. Heap 영역은 세 가지의 부분으로 나눌 수 있다.
 
 ![Screen Shot 2019-01-10 at 5 57 41 PM](https://user-images.githubusercontent.com/62649762/127275038-396dce49-4bac-403d-a34a-5ab44218f8aa.png)
