@@ -1,6 +1,6 @@
 import kr.Book;
 
-public class TCP09 {
+public class TPC09 {
     public static void main(String[] args) {
         // 객체 생성 과정
         // 객체를 생성한 후 접근 방법에는 .(dot) 연산자를 사용한다.
