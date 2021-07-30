@@ -33,7 +33,7 @@
 
 <img width="595" alt="data" src="https://user-images.githubusercontent.com/62649762/127269209-04fdf32d-eab9-499d-9811-b943813b1957.png">
  
-####PC Register
+#### PC Register
 * Thread가 시작될 때 생성되며  각각의 Thread 별로 생성되는 공간으로 현재 수행 중인 JVM 명령어 주소를 가지게 된다.
 
 #### JVM 스택 영역
