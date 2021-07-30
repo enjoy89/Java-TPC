@@ -1,4 +1,4 @@
-## JVM(Java Virtual Machine)이란?
+## JVM(Java Virtual Machine)
 * 스택 기반의 가상 머신의 약자를 줄여 부르는 용어이다. (가상 머신: 프로그램의 실행을 위해 물리적 머신과 유사한 머신 소프트웨어로 구현한 것)
 * JVM 역할은 자바 프로그램을 클래스 로더로 읽어 들여 자바 API와 함께 실행하는 것이다.
 * 자바 프로그램은 OS에 독립적으로 실행할 수 있는데, 이는 JVM이라는 가상머신이 구동하기 대문에 어떤 OS에 상관 없이 실행이 가능하기 때문이다.
@@ -65,7 +65,7 @@
 
 
 
-[참초] https://asfirstalways.tistory.com/158#recentEntries
+[참조] https://asfirstalways.tistory.com/158#recentEntries
 
 
 
