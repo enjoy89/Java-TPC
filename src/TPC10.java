@@ -21,7 +21,7 @@ public class TPC10 {
         // 객체 생성 후 객체를 초기화 하는 역할을 수행
         // 클래스이름과 동일한 메소드
         // 메소드의 return type이 없다.
-        // 생성자가 없을 때는 기본 생성자가 만들어진다.
+        // 생성자가 없을 때는 기본 생성자(default constructor)가 만들어진다.
         BookVO book = new BookVO("파이썬", 16000, "에이콘");
         System.out.println(book.title);
         System.out.println(book.price);
