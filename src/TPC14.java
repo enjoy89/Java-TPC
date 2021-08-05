@@ -13,6 +13,5 @@ public class TPC14 {
         // API
         String str = new String("BOOK");
         System.out.println(str.toLowerCase());
-
     }
 }
