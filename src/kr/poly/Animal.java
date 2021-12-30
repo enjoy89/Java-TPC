@@ -8,6 +8,6 @@ public abstract class Animal {
     // Dog, Cat --> eat();
     public abstract void eat(); // 추상메소드 (불완전한 메소드)
     public void move() {
-        System.out.println("무리를 지어서 이동한다.");
+        System.out.println("무리를 지어서 이동한다.");    // 메소드를 가질 수 있음.
     }
 }
